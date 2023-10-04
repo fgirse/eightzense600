@@ -26,7 +26,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
           <div className="container">
             <div className="row">
               <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
-                <h2
+                <h1
                   dangerouslySetInnerHTML={markdownify(data.frontmatter.title)}
                   className="mb-4"
                 />

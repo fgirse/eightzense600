@@ -5,10 +5,10 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
+    "logo": "/images/LogoEZ.png",
+    "logo_darkmode": "/images/logoEZ.png",
+    "logo_width": "90",
+    "logo_height": "90",
     "logo_text": "Nextplate"
   },
 

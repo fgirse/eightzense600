@@ -1,27 +1,27 @@
 ---
 enable: true
-title: "What Users Are Saying About Nextplate"
+title: "Waa sagen unsere wichtigsten Partner  -unsere Kunden"
 description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Nextplate."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
+  - name: "Francoise Cevert"
+    designation: "Formel1 Rennpilot"
+    avatar: "/images/avatar-sm-cevert.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
+  - name: "Brigitte Bardot"
+    designation: "Schauspielerin"
+    avatar: "/images/avatar-sm-bardot.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
+  - name: "Jean-Paul Belmondo"
+    designation: "Acteure"
+    avatar: "/images/avatar-sm-belmondo.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
+  - name: "Zinedin Zidane"
+    designation: "Fussballpropfi und Trainer"
+    avatar: "/images/avatar-sm-zidane.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 ---

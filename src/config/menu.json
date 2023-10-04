@@ -5,15 +5,15 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "über uns",
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "Galerie",
       "url": "/elements"
     },
     {
-      "name": "Pages",
+      "name": "Info",
       "url": "",
       "hasChildren": true,
       "children": [

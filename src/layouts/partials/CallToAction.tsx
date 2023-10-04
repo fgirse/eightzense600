@@ -26,7 +26,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
                   />
                 </div>
                 <div className="md:col-7 md:order-1">
-                  <h2
+                  <h1
                     dangerouslySetInnerHTML={markdownify(
                       data.frontmatter.title,
                     )}

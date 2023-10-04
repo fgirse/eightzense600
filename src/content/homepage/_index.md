@@ -1,19 +1,19 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
-  image: "/images/banner.png"
+  title: ""
+  content: "'the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together.'"
+  image: ""
   button:
     enable: true
-    label: "Get Started For Free"
+    label: "email to Eightzense"
     link: "https://github.com/zeon-studio/nextplate"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+  - title: "Was ist Eightzense?"
+    image: "/images/sketch.png"
+    content: "Eightzensee ist Fernanda Pereida. Eightzense enstand aus der  Situatuon, dass Fernanda  immer häufiger die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe für gutes und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing!' "
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -26,8 +26,8 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
+  - title: "Die Ingredentien"
+    image: "/images/glaskiesobg.png"
     content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
@@ -38,14 +38,14 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
+  - title: "3 Gründe weshalb Eightzense so erfolgreich ist. "
+    image: "/images/sketchobg.png"
     content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
       - "Instantly load static sites for better user experience and SEO."
       - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
       - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      
     button:
       enable: false
       label: ""
