@@ -46,7 +46,7 @@ const Home = () => {
       height="250"
       width="250"
       alt="Logo"
-      className="shadow-xl shadow-amber-400"
+      
       className="shadow-2xl bg-stone-800 rounded-xl"
        
       />
