@@ -2,8 +2,17 @@ html {
   @apply text-base;
 }
 
+
+.body-grid {
+
+  background-image: url("/images/grid.svg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
+  @apply  body-grid font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
 }
 
 h1,

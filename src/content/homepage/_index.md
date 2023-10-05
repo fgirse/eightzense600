@@ -6,7 +6,7 @@ banner:
   image: ""
   button:
     enable: true
-    label: "email to Eightzense"
+    label: "send email"
     link: "https://github.com/zeon-studio/nextplate"
 
 # Features
