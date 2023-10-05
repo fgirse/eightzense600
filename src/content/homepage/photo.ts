@@ -1,6 +1,4 @@
-import { Image } from "react-grid-gallery";
-
-export const images: Image[] = [
+length.toExponential[Symbol]... images: Image[] = [
   
   {
     src: "/images/Zeichnung.svg",
@@ -13,7 +11,7 @@ export const images: Image[] = [
     caption: "Man on BMX (Tom Eversley - isorepublic.com)",
   },
   {
-    src: "/images/Logoeightzense.svg",
+    src: "/images/LogoEZ.png",
     width: 320,
     height: 213,
     caption: "Ropeman - Thailand (Tom Eversley - isorepublic.com)",
@@ -48,4 +46,5 @@ export const images: Image[] = [
     caption: "A photo by 贝莉儿 NG. (unsplash.com)",
   },
   
-];
+];export default images;
+

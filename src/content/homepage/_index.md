@@ -11,9 +11,10 @@ banner:
 
 # Features
 features:
-  - title: "Was ist Eightzense?"
+  - title: "Was ist 8zense?"
     image: "/images/sketch.png"
-    content: "Eightzensee ist Fernanda Pereida. Eightzense enstand aus der  Situatuon, dass Fernanda  immer häufiger die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe für gutes und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing!' "
+    content: "8zensee ist Fernanda Pereida. 8zense enstand aus einer Intuition, dass Fernanda  immer häufiger sich die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing:
+    8-Zense' "
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -27,7 +28,7 @@ features:
       link: "#"
 
   - title: "Die Ingredentien"
-    image: "/images/glaskiesobg.png"
+    image: "/imagemkōkkipiiïō,"
     content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
       - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
