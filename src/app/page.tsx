@@ -29,35 +29,35 @@ const Home = () => {
  
  <main className=" h-screen bg-[url('/images/grid.svg')]  bg-repeat  bg-[#3c3f40] mb-10 mx-auto grid grid-cols-3 grid-rows-[85vh_20vh_20vh_20vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_25vh] lg:grid-cols-8 lg:grid-rows-[25vh_66vh_45vh_25vh_25vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
  <section className=" tile gap-2  col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
-      <div className=" grid gap-y-6 grid-cols-[33vw_33vw_33vw] grid-rows-[27vh_33vh_33vh] md:grid-cols-[20ve_20vw_20vw_20vw-20vw]">
-          <div className="p-3 col-start-1 col-end-3 row-start-1 row-end-2 ">
-          <p className="px-2 text-4xl md:w-1/4 md:text-4xl font-bold text-stone-200 lg:px-7 lg:text-[5rem]">Timeless</p>
-          <p className="px-2 leading-8 text-7xl md:w-1/4 md:text-6xl font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
+      <div className=" grid gap-y-6 grid-cols-[33vw_33vw_33vw] grid-rows-[27vh_33vh_33vh] md:grid-cols-[20vw_20vw_20vw_20vw_20vw] md:grid-rows-[27vw_33vh_33vh]">
+          <div className="p-3 col-start-1 col-end-4 row-start-1 row-end-2 md:bg-blue-600/25 md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
+          <p className=" py-2 px-2 text-3xl  md:mb-10 md:w-8/12 md:text-[5rem] leading-9 font-bold text-stone-100 lg:px-7 lg:text-[5rem]">Timeless</p>
+          <p className="px-2 leading-3 md:leading-10 text-6xl  md:text-[9rem] font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
           </div>
 
 
-          <div className="mr-8">
+          <div className="col-start-3 col-end-4 row-start-1 row-end-2  py-3 leading-3 font-bold text-[.75rem] mt-5 rounded-md font-primary text-stone-400  text-right md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-2 md:text-[1.223rem] lg:text-[1.3333rem] mr-3">
 
-          <p className=" col-start-3 col-end-4 row-start-1 row-end-2  py-3 leading-3 font-bold text-[.75rem] mt-5 rounded-md font-primary text-stone-400  text-right    md:w-4/12 md:text-[1.223rem] lg:text-[1.3333rem] lg:w-6/12"
+          <p className=" "
         dangerouslySetInnerHTML={markdownify(banner.content ?? "")}/>
-       <p className=" font-phudu px-1 py-1 lg:mt-3 lg:ml-5 text-[.67rem] w-9 bg-slate-900/60 leading-3 shadow-xl rounded-full text-center font-medium font-phudu text-orange-500 md:w-12 md:mr-5 lg:w-24 lg:text-xs">carl sagan</p>
+       <p className=" font-phudu px-1 py-1 lg:mt-3 lg:ml-5 text-[.67rem] w-9 bg-slate-900/60 leading-3 shadow-xl shadow-gray-500 rounded-full text-center font-medium font-phudu text-orange-500 md:w-12 md:mr-5 lg:w-24 lg:text-xs">carl sagan</p>
        </div>
 
 
-      <div className=" w-[56vw] col-start-2 col-end-3 row-start-2 floatrow-end-3 mx-auto justify-center items-center lg:hidden">
-        <div className="w-full flex flex-col justify-center items-center ">
+      <div className="col-start-2 col-end-3 row-start-2 row-end-3 md:w-full mx-auto justify-center items-start lg:hidden">
+        <div className="w-[43vw] h-60 flex flex-col items-center justify-center">
             <Image
               src="/images/LogoEZ.png"
               height="350"
               width="350" 
              alt="Logo"
-              className="shadow-2xl bg-stone-800 rounded-2xl"
+              className="px-2 transform scale-150 shadow-xl shadow-gray-500  rounded-2xl"
        
             />
         </div>     
       </div>
      
-      <div className="mt-5 col-start-2 col-end-3 row-start-3 row-end-4 mx-auto">
+      <div className="mt-5 col-start-2 col-end-3 row-start-3 row-end-4 mx-auto md:col-start-3 md:col-end-4 md:row-start-3 md-row-end-4" >
 {banner.button!.enable && (
           <a className="btn btn-primary text-sm" href={banner.button!.link}>
             {banner.button!.label}

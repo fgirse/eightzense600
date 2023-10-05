@@ -3,16 +3,9 @@ html {
 }
 
 
-.body-grid {
-
-  background-image: url("/images/grid.svg");
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: center center;
-}
 
 body {
-  @apply  body-grid font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
+  @apply font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
 }
 
 h1,
