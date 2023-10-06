@@ -28,56 +28,49 @@ const Home = () => {
              <SeoMeta />
       {/* ============================================== GRID A ====================================*/}
  
- <main className=" h-screen bg-[url('/images/grid.svg')]  bg-repeat  bg-[#3c3f40] mb-10 mx-auto grid grid-cols-3 grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_66vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
- <section className=" tile gap-2  col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
-      <div className=" grid gap-y-6 grid-cols-[33vw_33vw_33vw] grid-rows-[27vh_33vh_33vh] md:grid-cols-[20vw_20vw_20vw_20vw_20vw] md:grid-rows-[35vw_38vh_33vh]">
-          <div className="p-3 col-start-1 col-end-4 row-start-1 row-end-2 md: bg-gradient-to-b from-blue-600/25 to-[#3c3f40] md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
+ <main className=" h-screen bg-[url('/images/grid.svg')]  bg-repeat  bg-[#3c3f40] mb-10 grid grid-cols-[1fr_1fr_1fr] grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_66vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
+ <section className=" col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
+      <div className=" grid gap-y-1 grid-cols-[1fr_1fr_1fr] grid-rows-[29vh_26vh_14vh_20vh] place-justify-center md:grid-cols-[26vw_20vw_20vw_20vw_20vw] md:grid-rows-[20vw_38vh_33vh_20vh]">
+          <div className="p-3 col-start-1 col-end-4 row-start-1 row-end-2 bg-gradient-to-bfrom-yellow-600/30 to-[#3c3f40] md:bg-gradient-to-b from-blue-600/30 to-[#3c3f40] md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
           <p className=" py-2 px-2 text-3xl  md:mb-10 md:w-8/12 md:py-6 md:text-[5rem] leading-9 font-bold text-stone-100 lg:px-7 lg:mt-7 lg:leading-77 lg:text-[5rem]">Timeless</p>
           <p className="px-2 leading-3 md:leading-10 text-6xl  md:text-[9rem] font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
           </div>
 
+          <div className="relative z-10 col-start-2 col-end-4 row-start-1 row-end-2 py-28 leading-3 font-bold text-[.95rem] mt-5 rounded-md w-11/12  font-primary text-stone-400  text-right md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-2 mr:24 md:text-[1.523rem] md:leading-5 lg:text">
+                  <p className=" text-stone-300 lg:mt-12"
+                          dangerouslySetInnerHTML={markdownify(banner.content ?? "")}/>
+                   <p className=" font-phudu lg:mt-3 lg:ml-5 text-[.69rem] w-8 h-8 bg-slate-900/60 leading-3 shadow-xl shadow-gray-500 rounded-full text-center font-medium font-phudu text-orange-500 md:w-12 lg:w-24 lg:text-xs">carl sagan</p>
+           </div>
 
-          <div className="col-start-3 col-end-4 row-start-1 row-end-2  py-3 leading-3 font-bold text-[.75rem] mt-5 rounded-md font-primary text-stone-400  text-right md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-2 md:ml-24 w-full md:text-[1.523rem] md:leading-5 lg:text-[1.3333rem] md:mr-0 lg:">
-          <p className="w-8/12 lg:mt-12"
-        dangerouslySetInnerHTML={markdownify(banner.content ?? "")}/>
-       <p className=" font-phudu px-1 py-1 lg:mt-3 lg:ml-5 text-[.67rem] w-9 bg-slate-900/60 leading-3 shadow-xl shadow-gray-500 rounded-full text-center font-medium font-phudu text-orange-500 md:w-12 md:mr-5 lg:w-24 lg:text-xs">carl sagan</p>
-       </div>
-
-
-      <div className="col-start-2 col-end-3 row-start-2 row-end-3 md:w-full mx-auto justify-b md:items-center lg:bg-red-500 lg:col-start-7  lg:col-end-8 lg:row-start-2 lg:row-end-3 ">
-        <div className="w-[57vw]  md:h-full flex flex-col items-center md:justify-center md:ml-16">
-            <Image
+           <div className="flex flex-col items-center justify-start w-[36vw] md:w-[48vw] md:mt-20 transform translate-x-12 scale-150 py-6 col-start-2 col-end-4 row-start-2 row-end-3">
+           <Image
               src="/images/LogoEZ.png"
-              height="350"
-              width="350" 
+              height="250"
+              width="250" 
              alt="Logo"
-              className="px-2 py-5 trans rounded-2xl"
+              className="rounded-xl shadow-lg shadow-gray-600"
        />
-        </div>     
+           </div>
+           <div className="col-start-1 col-end-4 row-start-3 row-end-4 mx-auto text-center text-white py-5">
+      <h2 className=" text-amber-400 text-xl leading-tight"> 8-Zense SI</h2>
+      <h2 className="text-white text-xs leading-none"> Neuve Village - France</h2>
+      <h2 className="text-white text-xs"> phone: +33 888777666</h2>
+      <h2 className="text-white text-xs">(mobile: +33 123456</h2>
+      <h2 className="text-white text-xs"> email: 8zense3@gmx.fr</h2>
+      <h2 className="text-white text-xs"> web: https://8zense.com</h2>
       </div>
 
-<div className=" col-start-1 col-end-4 row-start-3 row-end-4 flex flex-col  items-center justify-center flex-wrap text-white">
-      <h2 className=" text-amber-400 text-3xl leading-tight"> 8-Zense SI</h2>
-      <h2 className="text-white text-sm leading-none"> Neuve Village - France</h2>
-      <h2 className="text-white text-sm"> phone: +33 888777666</h2>
-      <h2 className="text-white text-sm">(mobile: +33 123456</h2>
-      <h2 className="text-white text-sm"> email: 8zense3@gmx.fr</h2>
-      <h2 className="text-white text-sm"> web: https://8zense.com</h2>
-      </div>
-
-    <div className=" hidden md:col-start-1 md:col-end-6 md:row-start-2 md:row-end-4 w-full h-60   " >
-      <Image src={Pattern} alt="pattern" width="300" height="270" className="border-8 border-slate-500 shadow-xl shadow-gray-500" />
-     </div>
-
-      <div className="mt-5 col-start- col-end-3 row-start-3 row-end-4 mx-auto md:col-start-1 md:col-end-2 md:row-start-3 md-row-end-4 md:text-[3rem] " >
+      <div className="mt-3 col-start-2 col-end-3 row-start-4 row-end-5 mx-auto  md:col-start-2 md:col-end-4 md:row-start-4 md-row-end-5 md:text-[3rem] " >
 {banner.button!.enable && (
-          <a className="btn btn-primary text-sm md:text-2xl" href={banner.button!.link}>
+          <a className="mt-5 bg-amber-500 relative rounded-xl btn btn-primary w-56 text-3xl  md:text-2xl" href={banner.button!.link}>
             {banner.button!.label}
           </a>
         )}
   </div>
   
-  </div>
+  
+    
+    </div>
 </section>
 </main>
 
