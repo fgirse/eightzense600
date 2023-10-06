@@ -1,4 +1,6 @@
-length.toExponential[Symbol]... images: Image[] = [
+import { Image } from "react-grid-gallery";
+
+export const images: Image[] = [
   
   {
     src: "/images/Zeichnung.svg",
@@ -46,5 +48,4 @@ length.toExponential[Symbol]... images: Image[] = [
     caption: "A photo by 贝莉儿 NG. (unsplash.com)",
   },
   
-];export default images;
-
+];
