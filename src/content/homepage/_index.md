@@ -14,7 +14,7 @@ features:
   - title: "Was ist 8zense?"
     image: "/images/sketch.png"
     content: "8zensee ist Fernanda Pereida. 8zense enstand aus einer Intuition, dass Fernanda  immer häufiger sich die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing:
-    8-Zense' "
+    ' "
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -39,7 +39,7 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "3 Gründe weshalb Eightzense so erfolgreich ist. "
+  - title: "3 Gründe weshalb 8zense so erfolgreich ist. "
     image: "/images/sketchobg.png"
     content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
