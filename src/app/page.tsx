@@ -29,9 +29,9 @@ const Home = () => {
              <SeoMeta />
       {/* ============================================== GRID A ====================================*/}
  
- <main className=" h-screen  bg-[url('/images/grid.svg')]  bg-repeat  bg-[#3c3f40] mb-10 grid grid-cols-[1fr_1fr_1fr] grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_66vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
- <section className=" col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
-      <div className="bg-[url('/images/sideboardobg.png')] bg-no-repeat bg-[lenghth:100%_100%] grid gap-y-1 grid-cols-[1fr_1fr_1fr] grid-rows-[29vh_34vh_2vh_20vh] place-justify-center md:grid-cols-[26vw_20vw_20vw_20vw_20vw] md:grid-rows-[24vw_38vh_33vh_20vh]">
+ <main className=" h-screen w-full  bg-[url('/images/grid.svg')]  bg-repeat  bg-[#3c3f40] mb-10 grid grid-cols-[1fr_1fr_1fr] grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_66vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
+ <section className="col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
+      <div className="bg-[url('/images/sideboardobg.png')] bg-contain bg-no-repeat bg-bottom grid gap-y-1 grid-cols-[1fr_1fr_1fr] grid-rows-[34vh_20vh_5vh] md:grid-cols-[26vw_20vw_20vw_20vw_20vw] md:grid-rows-[24vw_38vh_33vh_20vh]">
           <div className="p-3 col-start-1 col-end-4 row-start-1 row-end-2 bg-gradient-to-b to-[#3c3f40] md:bg-gradient-to-b from-blue-600/30 md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
           <p className=" py-2 px-2 text-3xl  md:mb-10 md:w-8/12 md:py-6 md:text-[5rem] leading-9 font-bold text-stone-100 lg:px-7 lg:mt-7 lg:leading-77 lg:text-[5rem]">Timeless</p>
           <p className="px-2 leading-3 md:leading-10 text-6xl  md:text-[9rem] font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
@@ -43,20 +43,22 @@ const Home = () => {
                    <p className=" font-phudu lg:mt-3 lg:ml-5 text-[.69rem] w-8 h-8 bg-slate-900/60 leading-3 shadow-xl shadow-gray-500 rounded-full text-center font-medium font-phudu text-orange-500 md:w-12 lg:w-24 lg:text-xs">carl sagan</p>
            </div>
 
-           <div className=" mt-8  flex flex-col items-center justify-start w-[33vw] md:w-[48vw] md:mt-20 transform translate-x-12 scale-150 py-6 col-start-2 col-end-4 row-start-2 row-end-3">
+           {/*<div className="flex justify-center items-cente md:mt-20 py-6 col-start-2 col-end-4 row-star
+           t-2 row-end-3">
            <Image
-              src="/images/LogoEZ.png"
-              height="250"
+              src="/images/"
+
+              height<=">250"
               width="250" 
-             alt="Logo"
-              className="rounded-xl shadow-xl shadow-gray-700"
-       />
-           </div>
+              alt="Logo"
+              className="w-60 h-60 rounded-xl shadow-xl shadow-white/50"
+  
+  </div>*/}
         
 
-      <div className=" col-start-2 col-end-3 row-start-4 row-end-5 mx-auto  md:col-start-2 md:col-end-4 md:row-start-4 md-row-end-5 md:text-[3rem] " >
+      <div className="mt-12 flex justify-center col-start-2 col-end-3 row-start-4 row-end-5 md:col-start-2 md:col-end-4 md:row-start-4 md-row-end-5 md:text-[3rem] " >
 {banner.button!.enable && (
-          <a className="mt-5 bg-amber-500 relative rounded-xl btn btn-primary w-48 text-2xl  md:text-2xl" href={banner.button!.link}>
+          <a className="mt-5 bg-amber-500 rounded-xl btn btn-primary text-center w-36 h-10 text-1xl md:text-2xl" href={banner.button!.link}>
             {banner.button!.label}
           </a>
         )}
