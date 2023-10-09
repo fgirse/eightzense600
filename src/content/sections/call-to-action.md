@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Bereit individuelles Design und Eightzense kennen zu lernen?"
+title: "Bereit individuelles Design und 8zense kennen zu lernen?"
 image: "/images/sideboardobg.png"
 description: "Experience the future of web development with Nextplate and Next. Build lightning-fast static sites with ease a.nd flepnxibility."
 button:

@@ -54,7 +54,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="bg-[#3c3f40] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
+      <body className="bg-[#2A2B2A] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
         <TwSizeIndicator />
         <Providers>
           <Header />
