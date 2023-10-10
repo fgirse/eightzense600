@@ -1,6 +1,6 @@
 import Social from "@/components/Social";
 import ImageFallback from "@/helpers/ImageFallback";
-import { plainify } from "@/lib/utils/textConverter";
+import { plainify } from "@/lib/utils.ts/textConverter";
 import Link from "next/link";
 
 const AuthorCard = ({ data }: { data: any }) => {

@@ -4,7 +4,7 @@ import config from "@/config/config.json";
 import ImageFallback from "@/helpers/ImageFallback";
 import MDXContent from "@/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";
-import { slugify } from "@/lib/utils/textConverter";
+import { slugify } from "@/lib/utils.ts/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import { Author, Post } from "@/types";
 

@@ -12,7 +12,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply bg-[#B6AD96] py-6 dark:bg-darkmode-body;
+  @apply bg-[#B6AD96] py-2 dark:bg-darkmode-body;
 }
 
 // navbar items

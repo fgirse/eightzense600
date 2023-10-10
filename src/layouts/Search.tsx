@@ -1,7 +1,7 @@
 "use client";
 
 import config from "@/config/config.json";
-import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
+import { humanize, plainify, slugify } from "@/lib/utils.ts/textConverter";
 import Fuse from "fuse.js";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";

@@ -5,6 +5,8 @@ import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
+import "./globals.css"
+import {NextAuthProvider} from"./providers";
 
 export default function RootLayout({
   children,
@@ -56,11 +58,13 @@ export default function RootLayout({
 
       <body className="bg-[#2A2B2A] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
         <TwSizeIndicator />
+        <NextAuthProvider>
         <Providers>
           <Header />
-          <main>{children}</main>
+          <main className="">{children}</main>
           <Footer />
         </Providers>
+        </NextAuthProvider>
       </body>
     </html>
   );
