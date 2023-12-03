@@ -1,6 +1,6 @@
 import ImageFallback from "@/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
-import { markdownify } from "@/lib/utils/textConverter";
+import { markdownify } from "@/lib/uutils.ts'0/textConverter";
 import CallToAction from "@/partials/CallToAction";
 import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
@@ -29,12 +29,12 @@ const Home = () => {
              <SeoMeta />
       {/* ============================================== GRID A ====================================*/}
  
- <main className=" h-screen w-full  bg-[url('/images/grid.svg')]  bg-reāeat  bg-[#3c3f40] mb-10 grid grid-cols-[1fr_1fr_1fr] grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_60vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
+ <main className=" h-screen w-full  bg-[url('/images/grid.svg')] bg-repeat bg-[#3c3f40] mb-10 grid grid-cols-[1fr_1fr_1fr] grid-rows-[85vh_20vh_20vh_50vh] md:grid-cols-5 md:grid-rows-[89vh_20vh_45vh_60vh_50vh] lg:grid-cols-8 lg:grid-rows-[25vh_60vh_45vh_25vh_50vh] xl:grid-cols-12 xl:grid-row-[25vh_66vh_30vh_25vh_25vh] gap-3">
  <section className="col-start-1 col-end-4 row-start-1 row-end-2 md:col-start-1 md:col-end-4  md:row-start-1 md:row-end-2  md:h-auto lg:w-full lg:col-start-1 lg:col-end-13">
-      <div className="bg-[url('/images/sideboardobg.png')] bg-cover bg-no-repeat bg-bottom grid gap-y-1 grid-cols-[1fr_1fr_1fr] grid-rows-[34vh_18vh_4vh_10vh] md:grid-cols-[26vw_20vw_20vw_20vw_20vw] md:grid-rows-[24vw_38vh_33vh_20vh]">
+      <div className="-mt-36  bg-[url('/images/sideboardobg.png')] bg-[length:66% 66%] bg-no-repeat bg-bottom grid gap-y-1 grid-cols-[1fr_1fr_1fr] grid-rows-[34vh_18vh_4vh_10vh] md:grid-cols-[26vw_20vw_20vw_20vw_20vw] md:grid-rows-[24vw_38vh_33vh_20vh]">
           <div className="p-3 col-start-1 col-end-4 row-start-1 row-end-2  md:bg-gradient-to-b from-blue-300/30 to blue-600 md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
-          <p className=" py-2 px-2 text-5xl uppercase  md:mb-10 md:w-8/12 md:py-6 md:text-[5rem] leading-9 font-bold text-stone-100 lg:px-7 lg:mt-7 lg:leading-77 lg:text-[5rem]">Timeless</p>
-          <p className="px-2 uppercase leading-10 text-8xl  md:text-[9rem] font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
+          <p className=" py-2 px-2 text-5xl uppercase  md:mb-10 md:w-8/12 md:py-6 md:text-[5rem] leading-9 font-bold text-stone-100 lg:px-7 lg:mt-7 lg:leading-7 lg:text-[5rem]">Timeless</p>
+          <p className="px-2 uppercase leading-6 text-7xl  md:text-[9rem] font-extrabold text-[#d8cdab] lg:text-[13rem] mt-3">Design</p>
           </div>
 
           <div className="relative z-10 col-start-2 col-end-4 row-start-1 row-end-2 py-28 leading-3 font-bold text-[.95rem] mt-12 rounded-md w-11/12  font-primary text-stone-400  text-right md:col-start-4 md:col-end-6 md:row-start-1 md:row-end-2 mr:24 md:text-[1.523rem] md:leading-5 lg:text">

@@ -1,5 +1,5 @@
 import ImageFallback from "@/helpers/ImageFallback";
-import { markdownify } from "@/lib/utils/textConverter";
+import { markdownify } from "@/lib/uutils.ts'0/textConverter";
 import { Call_to_action } from "@/types";
 
 interface PageData {

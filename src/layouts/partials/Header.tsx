@@ -41,10 +41,9 @@ const Header = () => {
       className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
       <nav className="navbar container">
+      <AuthInfo/>
         {/* logo */}
-        <div className="order-0">
-          <Logo />
-        </div>
+        
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
         <label
@@ -151,7 +150,7 @@ const Header = () => {
             </Link>
           )}
         </div>
-        <AuthInfo/>
+        
       </nav>
     </header>
   );

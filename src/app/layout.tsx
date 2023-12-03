@@ -2,12 +2,13 @@ import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import TwSizeIndicator from "@/helpers/TwSizeIndicator";
 import Footer from "@/partials/Footer";
-import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
 import "./globals.css"
-import {NextAuthProvider} from"./providers";
+//import {NextAuthProvider} from"./providers";
+import { ClerkProvider } from '@clerk/nextjs'
 
+import Header from"../layouts/partials/Header";
 export default function RootLayout({
   children,
 }: {
@@ -55,17 +56,26 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+    
 
-      <body className="bg-[#2A2B2A] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
+    <ClerkProvider>
+                                                                                                                                                                      <body className="bg-[#2A2B2A] bg-[url('/images/gitter.svg')]  bg-repeat"  suppressHydrationWarning={true}>
         <TwSizeIndicator />
-        <NextAuthProvider>
+        
         <Providers>
           <Header />
           <main className="">{children}</main>
           <Footer />
         </Providers>
-        </NextAuthProvider>
+        
       </body>
+      </ClerkProvider>
     </html>
+
   );
 }
+
+
+
+
+

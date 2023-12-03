@@ -11,9 +11,9 @@ banner:
 
 # Features
 features:
-  - title: "Was ist 8zense?"
+  - title: "Was ist 8zenSe ?"
     image: "/images/sketch.png"
-    content: "8zensee ist Fernanda Pereida. 8zense enstand aus einer Intuition, dass Fernanda  immer häufiger sich die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing:
+    content: "8zenSe ist FERNANDA PEREIDA. 8zenSe enstand aus der Intuition, dass Fernanda  immer häufiger sich die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht, die sich diescc744 auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist 'Exclusivität und Individualität ausgezeichnet durch einzigartiges Desing:
     ' "
     bulletpoints:
       - "10+ Pre-build pages"

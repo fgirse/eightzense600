@@ -1,7 +1,7 @@
 "use client";
 
 import ImageFallback from "@/helpers/ImageFallback";
-import { markdownify } from "@/lib/utils/textConverter";
+import { markdownify } from "@/lib/uutils.ts'0/textConverter";
 import { Testimonial } from "@/types";
 import "swiper/css";
 import { Autoplay, Pagination } from "swiper/modules";
